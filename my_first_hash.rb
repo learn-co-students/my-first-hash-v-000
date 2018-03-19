@@ -1,13 +1,12 @@
 def my_hash
-  Daytime = {"Weather" => "Sunny"}
+  my_hash = {"weather" => "sunny"}
 end
-
 
 def shipping_manifest
-  the_manifest = {"whale bone corsets" => 5, "porcelain vase" => 2, "oil painting" => 3}
+  the_manifest = {"whale bone corsets" => 5, "oil painting" => 3, "porcelain vase" => 2}
   end
   the_manifest
-end
+
 
 def retrieval
   shipping_manifest = {
@@ -27,14 +26,14 @@ def adding
                   "oil paintings" => 3
                  }
   # add 2 muskets to the shipping_manifest hash below
-  shipping_manifest = ["muskets"] = 2
+  shipping_manifest["muskets"] = 2
 
 
   # add 4 gun powder to the shipping_manifest hash below
-  shipping_manifest = ["gun powder"] = 4
+  shipping_manifest["gun powder"] = 4
 
 
   # return the shipping_manifest hash below
   puts shipping_manifest
 
-end
+ end
